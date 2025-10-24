@@ -16,7 +16,7 @@ Check out the live app on Render: [Wanderlust Live](https://wanderlust-04s1.onre
 - CRUD operations for travel listings
 - Upload images to **Cloudinary**
 - Interactive maps using **Mapbox**
-- Flash messages for notifications
+- Flash messages for notifications 
 - EJS templating for dynamic views
 
 ---
@@ -43,12 +43,12 @@ cd Wanderlust
 npm install
 
 4.Create a .env file with your environment variables:
-CLOUD_NAME=your_cloud_name
-CLOUD_API_KEY=your_api_key
-CLOUD_API_SECRET=your_api_secret
-DB_URL=your_mongo_uri
-MAP_TOKEN=your_mapbox_token
-SECRET=your_session_secret
+1.CLOUD_NAME=your_cloud_name
+2.CLOUD_API_KEY=your_api_key
+3.CLOUD_API_SECRET=your_api_secret
+4.DB_URL=your_mongo_uri
+5.MAP_TOKEN=your_mapbox_token
+6.SECRET=your_session_secret
 
 5.Start the server:
 npm start
